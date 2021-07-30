@@ -1,0 +1,14 @@
+# Common configuration: https://github.com/rubocop/rubocop/blob/master/config/default.yml
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Metrics/MethodLength:
+  Description: 'Avoid methods longer than 50 lines of code.'
+  StyleGuide: '#middle-methods'
+  Enabled: true
+  CountComments: false  # count full line comments?
+  Max: 50
